@@ -1,0 +1,124 @@
+/* compararautos.css */
+
+/* Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #2727b5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabecera */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Contenedor principal */
+.main-container {
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+/* Contenedor de comparación lado a lado */
+.comparison-table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    background-color: #2b117c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.auto-comparacion {
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #5f13d8;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.auto-comparacion:hover {
+    background-color: #2a21ca;
+    transform: scale(1.02);
+}
+
+.auto-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.auto-price {
+    font-size: 1.25rem;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+/* Botones de acción */
+.compare-button {
+    display: inline-block;
+    background-color: #00796b;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.compare-button:hover {
+    background-color: #00695c;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 768px) {
+    .comparison-table {
+        flex-direction: column;
+    }
+
+    .auto-comparacion {
+        width: 100%;
+    }
+
+    .main-container {
+        margin: 1rem;
+    }
+
+    .auto-title {
+        font-size: 1.25rem;
+    }
+}
