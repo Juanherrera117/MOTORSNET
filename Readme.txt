@@ -1,4 +1,8 @@
 Instrucciones para Correcta Ejecución - concesionario (FRONTEND)
+
+Bienvenido al repositorio 
+Aquí para poder ejecutar la pagina web primero debe descargar la carpeta .zip
+Para ello, ubiquese en el boton verde llamado "code"
 Asegurese de estar en la ruta correcta (sobre la carpeta concesionario)
 
 Instalar modulos de REACT
