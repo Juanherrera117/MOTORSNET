@@ -1,0 +1,99 @@
+/* Estilos generales para el pie de página */
+footer {
+  background-color: #2c2c2c; /* Fondo oscuro para el pie de página */
+  color: #ffffff; /* Color de texto claro */
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px; /* Tamaño de fuente para el pie de página */
+}
+
+/* Navegación y marca */
+.navbar {
+  background-color: #ffffff; /* Fondo blanco para el navbar */
+  font-family: 'Arial', sans-serif; 
+}
+
+.brand {
+  font-size: 28px; /* Tamaño de fuente ajustado */
+  color: #0056b3; /* Color para la marca */
+  font-weight: bold; /* Negrita para la marca */
+}
+
+.brand::first-letter {
+  color: #0056b3; /* Color para la primera letra de la marca */
+}
+
+/* Títulos de navegación */
+.navbar .nav-link {
+  font-size: 18px; /* Tamaño de fuente para los enlaces */
+}
+
+/* Estilos de enlaces */
+.nav-link {
+  color: #333; /* Color de enlace */
+  transition: color 0.3s; 
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Color del enlace al pasar el mouse */
+}
+
+/* Estilo de párrafos */
+p {
+  font-size: 16px; /* Tamaño de fuente para los párrafos */
+}
+
+/* Redes sociales en la barra de navegación */
+.navbar .social-icons {
+  margin-left: auto;
+  margin-right: 20px; /* Espaciado en las redes sociales */
+}
+
+.navbar .social-icons a {
+  margin-left: 15px;
+  display: inline-block;
+  transition: transform 0.3s; /* Animación al pasar el mouse */
+}
+
+.navbar .social-icons a:hover {
+  transform: scale(1.1); /* Efecto de escalado al pasar el mouse */
+}
+
+/* Colores específicos para contenedores */
+#cont,
+#user {
+  color: #333; /* Color del contenedor y usuario */
+}
+
+/* Estilos del modal */
+.modal-header {
+  background-color: #f8f9fa; /* Fondo claro para el encabezado del modal */
+}
+
+.modal-title {
+  color: #0056b3; /* Color para el título del modal */
+}
+
+/* Estilo adicional para la marca */
+.brand:before {
+  font-size: 24px; /* Tamaño de fuente para la marca */
+  font-weight: bold; /* Negrita para destacar la marca */
+  display: block; /* Mostrar en bloque para alineación */
+}
+
+/* Estilos de formulario */
+.form-control {
+  border-radius: 0.25rem; /* Bordes redondeados para los campos de entrada */
+  box-shadow: none; /* Sin sombra para un aspecto más limpio */
+}
+
+.btn-outline-primary {
+  border-color: #0056b3; /* Color del borde para el botón */
+}
+
+.btn-outline-primary:hover {
+  background-color: #0056b3; /* Fondo al pasar el mouse */
+  color: #ffffff; /* Color del texto al pasar el mouse */
+}
